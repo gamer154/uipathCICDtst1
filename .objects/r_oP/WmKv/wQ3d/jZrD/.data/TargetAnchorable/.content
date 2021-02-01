@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://dev57378.service-now.com/welcome.do" ContentHash="tjMRxAcjVEWw8UcGQ2AxmA" DesignTimeRectangle="217, 292, 50, 32" ElementType="Button" FriendlyName="'Login'" FullSelectorArgument="&lt;webctrl id='gsft_main' tag='IFRAME' /&gt;&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl id='gsft_main' tag='IFRAME' /&gt;&lt;webctrl tag='BUTTON' type='submit' aaname='Login' check:text='Login' /&gt;" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ServiceNow' /&gt;" SearchSteps="FuzzySelector, Image" Text="Login" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='BUTTON' type='submit' /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0T1tOEl-qYEGPH87uRycS6w</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="7f61de9b6680d635041cbb99f6d5b58d.png" xmlns="">0WgcxFKqYZ0m9thyPSJrRAw</imageRef>
+</TargetAnchorable>

@@ -1,0 +1,13 @@
+﻿{
+  "Id": "FSeTLtVDSE2ENmcFQctCFA",
+  "Reference": "Nji_p3c_4kqvK7jnzaAejQ/FSeTLtVDSE2ENmcFQctCFA",
+  "ParentRef": "Nji_p3c_4kqvK7jnzaAejQ/hC-sU1A-gU2-S78DxK6yDg",
+  "Name": "MenutoLogout",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-02-01T20:12:40.7342898Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-02-01T20:12:40.7342898Z"
+}

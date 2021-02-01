@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://dev57378.service-now.com/nav_to.do?uri=%2Fhome.do%3F" ContentHash="k6V5NIlfEEmqC_VQw4YtCg" DesignTimeRectangle="50, 276, 185, 26" ElementType="Text" FriendlyName="'Self-Service - Incidents'" FullSelectorArgument="&lt;webctrl aaname='Self-Service - Incidents' idx='1' parentid='gsft_nav' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Self-Service - Incidents' type='' parentid='gsft_nav' tag='SPAN' check:text='Self-Service - Incidents' /&gt;" ScopeSelectorArgument="&lt;html app='chrome.exe' title='System Administration | ServiceNow' /&gt;" SearchSteps="FuzzySelector, Image" Text="Self-Service - Incidents" TextMethod="AttributeText" TextSelector="&lt;webctrl type='' tag='SPAN' /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0ZHyeLix0NUGK8jCIYg1vOQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="47f52ccc755b0cadf1037dadf535e643.png" xmlns="">0SuYfE1yDjkqhOf3WML9QDQ</imageRef>
+</TargetAnchorable>

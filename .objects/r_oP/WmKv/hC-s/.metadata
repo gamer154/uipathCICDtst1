@@ -1,0 +1,14 @@
+﻿{
+  "Id": "hC-sU1A-gU2-S78DxK6yDg",
+  "Reference": "Nji_p3c_4kqvK7jnzaAejQ/hC-sU1A-gU2-S78DxK6yDg",
+  "ParentRef": "Nji_p3c_4kqvK7jnzaAejQ/WmKvJy59akiOtHWAq4vpCw",
+  "Name": "ServiceNow Logged In Screen",
+  "Type": "Screen",
+  "TaxonomyType": "Screen",
+  "Created": "2021-02-01T20:12:35.28357Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=20.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-02-01T20:12:35.28357Z"
+}

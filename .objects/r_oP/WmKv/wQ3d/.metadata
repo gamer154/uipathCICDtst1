@@ -1,0 +1,15 @@
+﻿{
+  "Id": "wQ3dujOmjEO7L8X5AQ7fqw",
+  "Reference": "Nji_p3c_4kqvK7jnzaAejQ/wQ3dujOmjEO7L8X5AQ7fqw",
+  "ParentRef": "Nji_p3c_4kqvK7jnzaAejQ/WmKvJy59akiOtHWAq4vpCw",
+  "Name": "Chrome: ServiceNow",
+  "Type": "Screen",
+  "Created": "2021-02-01T19:58:16.1221167Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-02-01T19:59:49.417691Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

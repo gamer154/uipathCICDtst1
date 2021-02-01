@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp BrowserType="Chrome" ContentHash="Nd514fUuf0K-tFuI_cTRxg" Selector="&lt;html app='chrome.exe' title='System Administration | ServiceNow'/&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">0wzlvi7DphkKqHDwrqIAdTw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="7720c7586c4cd6505786cc90c0c883b9.png" xmlns="">0LpXC782lFkSUS3iZRTQojA</imageRef>
+</TargetApp>

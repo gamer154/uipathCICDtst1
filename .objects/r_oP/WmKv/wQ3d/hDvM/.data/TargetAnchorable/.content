@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://dev57378.service-now.com/welcome.do" ContentHash="ru7WUmSO10ORyDDxwe9lPQ" DesignTimeRectangle="35, 247, 232, 32" ElementType="InputBoxPassword" FriendlyName="'INPUT  user_password'" FullSelectorArgument="&lt;webctrl id='gsft_main' tag='IFRAME' /&gt;&lt;webctrl tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl id='gsft_main' tag='IFRAME' /&gt;&lt;webctrl tag='INPUT' type='password' aaname='Password' /&gt;" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ServiceNow' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="35, 224, 52, 18" ElementType="Text" FriendlyName="'Password'" FullSelectorArgument="&lt;webctrl id='gsft_main' tag='IFRAME' /&gt;&lt;webctrl aaname='Password' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl id='gsft_main' tag='IFRAME' /&gt;&lt;webctrl aaname='Password' tag='LABEL' type='' check:text='Password' /&gt;" SearchSteps="FuzzySelector, Image" Text="Password" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='LABEL' type='' /&gt;">
+        <imageRef attrName="ImageBase64" xmlns="">1YMxDO6ssokyOAR7atcOuKw</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0fkW6z2NxCkmAKY0RY1edzw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="0c2df7071442eb46f22ef72c8788025c.png" xmlns="">0KVwANRiWe0m4i0Uuv9a_8w</imageRef>
+</TargetAnchorable>

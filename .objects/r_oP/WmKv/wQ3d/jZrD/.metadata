@@ -1,0 +1,13 @@
+﻿{
+  "Id": "jZrDkAsfVUqaNK7BdobWuw",
+  "Reference": "Nji_p3c_4kqvK7jnzaAejQ/jZrDkAsfVUqaNK7BdobWuw",
+  "ParentRef": "Nji_p3c_4kqvK7jnzaAejQ/wQ3dujOmjEO7L8X5AQ7fqw",
+  "Name": "Login",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-02-01T19:58:16.5001174Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-02-01T19:58:16.5001174Z"
+}

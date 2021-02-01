@@ -1,0 +1,13 @@
+﻿{
+  "Id": "1Ni_B0JqiUyMYTavNZzbnQ",
+  "Reference": "Nji_p3c_4kqvK7jnzaAejQ/1Ni_B0JqiUyMYTavNZzbnQ",
+  "ParentRef": "Nji_p3c_4kqvK7jnzaAejQ/wQ3dujOmjEO7L8X5AQ7fqw",
+  "Name": "Self-Service - Incidents",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2021-02-01T19:58:16.5751528Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-02-01T19:58:16.5751528Z"
+}

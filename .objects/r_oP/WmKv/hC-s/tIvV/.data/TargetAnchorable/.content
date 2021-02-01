@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://dev57378.service-now.com/nav_to.do?uri=%2Fhome.do%3F" ContentHash="-I2JRZ3FZk2ZZdI4Rkgj7A" DesignTimeRectangle="1617, 199, 158, 24" ElementType="Text" FriendlyName="'Logout'" FullSelectorArgument="&lt;webctrl aaname='Logout' aria-role='menuitem' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Logout' aria-role='menuitem' tag='A' type='' check:text='Logout' /&gt;" ScopeSelectorArgument="&lt;html app='chrome.exe' title='System Administration | ServiceNow' /&gt;" SearchSteps="FuzzySelector, Image" Text="Logout" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='A' type='' /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0N3cDhec1hUKHuru-3mNOsw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="1a55692e2687428dda1a144c18e6aed9.png" xmlns="">0sLQWtCrs8kG5FbW9tOtMUQ</imageRef>
+</TargetAnchorable>

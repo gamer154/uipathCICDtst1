@@ -1,0 +1,14 @@
+﻿{
+  "Id": "r_oPDiPsO0ayJpjm599ofQ",
+  "Reference": "Nji_p3c_4kqvK7jnzaAejQ/r_oPDiPsO0ayJpjm599ofQ",
+  "Name": "ServiceNow",
+  "Type": "App",
+  "Created": "2021-02-01T19:58:16.0331494Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-02-01T19:59:49.3499948Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=20.10.4.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
