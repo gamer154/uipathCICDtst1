@@ -49,9 +49,14 @@
         "fileName": "ServiceNow\\TestCases\\servicenow_LogoutTestCase.xaml"
       },
       {
-        "editingStatus": "Publishable",
+        "editingStatus": "InProgress",
         "testCaseId": "1e9a7900-845d-486b-810d-d853f5d9fadd",
         "fileName": "MainTestCase.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "419b6237-7903-49d2-98cf-d5cc75235eca",
+        "fileName": "MainTestCase2.xaml"
       }
     ],
     "modernBehavior": true
