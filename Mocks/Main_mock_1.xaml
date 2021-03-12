@@ -1,6 +1,6 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="1118,801" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:utam="clr-namespace:UiPath.Testing.Activities.Mocks;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="1127,841" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:utam="clr-namespace:UiPath.Testing.Activities.Mocks;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
-    <sco:Collection x:TypeArguments="x:String">
+    <scg:List x:TypeArguments="x:String" Capacity="64">
       <x:String>System.Activities</x:String>
       <x:String>System.Activities.Statements</x:String>
       <x:String>System.Activities.Expressions</x:String>
@@ -37,10 +37,10 @@
       <x:String>UiPath.Platform.ObjectLibrary</x:String>
       <x:String>UiPath.UIAutomationNext.Contracts</x:String>
       <x:String>System.ComponentModel</x:String>
-    </sco:Collection>
+    </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <sco:Collection x:TypeArguments="AssemblyReference">
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="50">
       <AssemblyReference>Microsoft.CSharp</AssemblyReference>
       <AssemblyReference>System</AssemblyReference>
       <AssemblyReference>System.Core</AssemblyReference>
@@ -75,7 +75,7 @@
       <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
       <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Platform</AssemblyReference>
-    </sco:Collection>
+    </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Flowchart sap:VirtualizedContainerService.HintSize="634,636" sap2010:WorkflowViewState.IdRef="Flowchart_1">
     <sap:WorkflowViewStateService.ViewState>
@@ -97,9 +97,9 @@
           <av:PointCollection x:Key="ConnectorLocation">300,178.5 300,228.5</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <utam:MockActivity sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="MockActivity_1" MockedActivityIdRef="InvokeWorkflowFile_1">
+      <utam:MockActivity MockedActivityIdRef="InvokeWorkflowFile_1">
         <utam:MockActivity.MockedActivity>
-          <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke servicenow_Login workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="ServiceNow\\servicenow_Login.xaml">
+          <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Servicenow_Login workflow" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="ServiceNow\\servicenow_Login.xaml">
             <ui:InvokeWorkflowFile.Arguments>
               <scg:Dictionary x:TypeArguments="x:String, Argument" />
             </ui:InvokeWorkflowFile.Arguments>
@@ -110,13 +110,13 @@
             </sap:WorkflowViewStateService.ViewState>
           </ui:InvokeWorkflowFile>
         </utam:MockActivity.MockedActivity>
-        <Sequence sap:VirtualizedContainerService.HintSize="830,794" sap2010:WorkflowViewState.IdRef="Sequence_2">
+        <Sequence sap:VirtualizedContainerService.HintSize="830,794" sap2010:WorkflowViewState.IdRef="">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke servicenow_Login workflow" sap:VirtualizedContainerService.HintSize="788,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="ServiceNow\\servicenow_Login.xaml">
+          <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke servicenow_Login workflow" sap:VirtualizedContainerService.HintSize="788,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" Timeout="{x:Null}" UnSafe="False" WorkflowFileName="ServiceNow\\servicenow_Login.xaml">
             <ui:InvokeWorkflowFile.Arguments>
               <scg:Dictionary x:TypeArguments="x:String, Argument" />
             </ui:InvokeWorkflowFile.Arguments>
@@ -126,7 +126,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </ui:InvokeWorkflowFile>
-          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application/Browser 'Chrome: ServiceNow'" sap:VirtualizedContainerService.HintSize="788,550" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" Version="V1">
+          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Use Application/Browser 'Chrome: ServiceNow'" sap:VirtualizedContainerService.HintSize="788,550" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="{x:Null}" OpenMode="{x:Null}" OutUiElement="{x:Null}" Timeout="{x:Null}" UserDataFolderMode="{x:Null}" UserDataFolderPath="{x:Null}" Version="V1">
             <uix:NApplicationCard.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
@@ -138,13 +138,16 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uta:VerifyControlAttribute KeepScreenshots="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Control Attribute" sap:VirtualizedContainerService.HintSize="712,240" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_1" Operator="Contains" OutputArgument="Text" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False">
+                  <uta:VerifyControlAttribute ContinueOnFailure="True" DisplayName="Verify Control Attribute" sap:VirtualizedContainerService.HintSize="712,240" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_1" KeepScreenshots="{x:Null}" Operator="Contains" OutputArgument="Text" ScreenshotsPath="{x:Null}" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False">
                     <uta:VerifyControlAttribute.ActivityToTest>
                       <ActivityAction>
-                        <uix:NGetText DisplayName="Get Text 'Self-Service - Incidents'" sap:VirtualizedContainerService.HintSize="334,166" sap2010:WorkflowViewState.IdRef="NGetText_1">
+                        <uix:NGetText ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Get Text 'Self-Service - Incidents'" sap:VirtualizedContainerService.HintSize="334,166" sap2010:WorkflowViewState.IdRef="NGetText_1" InUiElement="{x:Null}" Timeout="{x:Null}">
                           <uix:NGetText.OutUiElement>
                             <OutArgument x:TypeArguments="ui:UiElement">
                               <VariableReference x:TypeArguments="ui:UiElement">
+                                <VariableReference.Result>
+                                  <OutArgument x:TypeArguments="Location(ui:UiElement)" />
+                                </VariableReference.Result>
                                 <VariableReference.Variable>
                                   <Variable x:TypeArguments="ui:UiElement" Name="OutUiElement" />
                                 </VariableReference.Variable>
@@ -157,6 +160,9 @@
                           <uix:NGetText.Text>
                             <OutArgument x:TypeArguments="x:Object">
                               <VariableReference x:TypeArguments="x:Object">
+                                <VariableReference.Result>
+                                  <OutArgument x:TypeArguments="Location(x:Object)" />
+                                </VariableReference.Result>
                                 <VariableReference.Variable>
                                   <Variable x:TypeArguments="x:Object" x:Name="__ReferenceID0" Name="Text" />
                                 </VariableReference.Variable>
@@ -168,10 +174,14 @@
                     </uta:VerifyControlAttribute.ActivityToTest>
                     <uta:VerifyControlAttribute.ArgumentsBridgeActivity>
                       <ActivityFunc x:TypeArguments="x:Object">
-                        <uta:ArgumentsBridge sap2010:WorkflowViewState.IdRef="ArgumentsBridge_1">
+                        <uta:ArgumentsBridge sap2010:WorkflowViewState.IdRef="ArgumentsBridge_1" Result="{x:Null}">
                           <uta:ArgumentsBridge.Input>
                             <InArgument x:TypeArguments="x:Object">
-                              <VariableValue x:TypeArguments="x:Object" Variable="{x:Reference __ReferenceID0}" />
+                              <VariableValue x:TypeArguments="x:Object" Variable="{x:Reference __ReferenceID0}">
+                                <VariableValue.Result>
+                                  <OutArgument x:TypeArguments="x:Object" />
+                                </VariableValue.Result>
+                              </VariableValue>
                             </InArgument>
                           </uta:ArgumentsBridge.Input>
                         </uta:ArgumentsBridge>
@@ -179,7 +189,10 @@
                     </uta:VerifyControlAttribute.ArgumentsBridgeActivity>
                     <uta:VerifyControlAttribute.Expression>
                       <InArgument x:TypeArguments="x:String">
-                        <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">"Incidents"</mca:CSharpValue>
+                        <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">
+                          <mca:CSharpValue.Result>
+                            <OutArgument x:TypeArguments="x:String" />
+                          </mca:CSharpValue.Result>"Incidents"</mca:CSharpValue>
                       </InArgument>
                     </uta:VerifyControlAttribute.Expression>
                   </uta:VerifyControlAttribute>
@@ -200,9 +213,9 @@
               <av:Size x:Key="ShapeSize">200,51</av:Size>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <utam:MockActivity sap:VirtualizedContainerService.HintSize="1242,867" sap2010:WorkflowViewState.IdRef="MockActivity_2" MockedActivityIdRef="InvokeWorkflowFile_2">
+          <utam:MockActivity MockedActivityIdRef="InvokeWorkflowFile_2">
             <utam:MockActivity.MockedActivity>
-              <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke servicenow_Logout workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="ServiceNow\\servicenow_Logout.xaml">
+              <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke servicenow_Logout workflow" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="ServiceNow\\servicenow_Logout.xaml">
                 <ui:InvokeWorkflowFile.Arguments>
                   <scg:Dictionary x:TypeArguments="x:String, Argument" />
                 </ui:InvokeWorkflowFile.Arguments>
@@ -213,13 +226,13 @@
                 </sap:WorkflowViewStateService.ViewState>
               </ui:InvokeWorkflowFile>
             </utam:MockActivity.MockedActivity>
-            <Sequence sap:VirtualizedContainerService.HintSize="830,794" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <Sequence sap:VirtualizedContainerService.HintSize="830,794" sap2010:WorkflowViewState.IdRef="">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke servicenow_Logout workflow" sap:VirtualizedContainerService.HintSize="788,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="ServiceNow\\servicenow_Logout.xaml">
+              <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke servicenow_Logout workflow" sap:VirtualizedContainerService.HintSize="788,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" Timeout="{x:Null}" UnSafe="False" WorkflowFileName="ServiceNow\\servicenow_Logout.xaml">
                 <ui:InvokeWorkflowFile.Arguments>
                   <scg:Dictionary x:TypeArguments="x:String, Argument" />
                 </ui:InvokeWorkflowFile.Arguments>
@@ -229,7 +242,7 @@
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
               </ui:InvokeWorkflowFile>
-              <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Use Application/Browser 'Chrome: ServiceNow'" sap:VirtualizedContainerService.HintSize="788,550" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="Simulate" OpenMode="Never" Version="V1">
+              <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" ContinueOnError="{x:Null}" DisplayName="Use Application/Browser 'Chrome: ServiceNow'" sap:VirtualizedContainerService.HintSize="788,550" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InUiElement="{x:Null}" InteractionMode="Simulate" OpenMode="Never" OutUiElement="{x:Null}" Timeout="{x:Null}" UserDataFolderMode="{x:Null}" UserDataFolderPath="{x:Null}" Version="V1">
                 <uix:NApplicationCard.Body>
                   <ActivityAction x:TypeArguments="x:Object">
                     <ActivityAction.Argument>
@@ -244,13 +257,16 @@
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <uta:VerifyControlAttribute KeepScreenshots="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Control Attribute" sap:VirtualizedContainerService.HintSize="712,240" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_2" Operator="Equality" OutputArgument="Text" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False">
+                      <uta:VerifyControlAttribute ContinueOnFailure="True" DisplayName="Verify Control Attribute" sap:VirtualizedContainerService.HintSize="712,240" sap2010:WorkflowViewState.IdRef="VerifyControlAttribute_2" KeepScreenshots="{x:Null}" Operator="Equality" OutputArgument="Text" ScreenshotsPath="{x:Null}" TakeScreenshotInCaseOfFailingAssertion="True" TakeScreenshotInCaseOfSucceedingAssertion="False">
                         <uta:VerifyControlAttribute.ActivityToTest>
                           <ActivityAction>
-                            <uix:NGetText DisplayName="Get Text 'Login'" sap:VirtualizedContainerService.HintSize="334,166" sap2010:WorkflowViewState.IdRef="NGetText_2">
+                            <uix:NGetText ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Get Text 'Login'" sap:VirtualizedContainerService.HintSize="334,166" sap2010:WorkflowViewState.IdRef="NGetText_2" InUiElement="{x:Null}" Timeout="{x:Null}">
                               <uix:NGetText.OutUiElement>
                                 <OutArgument x:TypeArguments="ui:UiElement">
                                   <VariableReference x:TypeArguments="ui:UiElement">
+                                    <VariableReference.Result>
+                                      <OutArgument x:TypeArguments="Location(ui:UiElement)" />
+                                    </VariableReference.Result>
                                     <VariableReference.Variable>
                                       <Variable x:TypeArguments="ui:UiElement" Name="OutUiElement" />
                                     </VariableReference.Variable>
@@ -262,7 +278,10 @@
                               </uix:NGetText.Target>
                               <uix:NGetText.Text>
                                 <OutArgument x:TypeArguments="x:String">
-                                  <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">loginBtn</mca:CSharpReference>
+                                  <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">
+                                    <mca:CSharpReference.Result>
+                                      <OutArgument x:TypeArguments="Location(x:String)" />
+                                    </mca:CSharpReference.Result>loginBtn</mca:CSharpReference>
                                 </OutArgument>
                               </uix:NGetText.Text>
                             </uix:NGetText>
@@ -270,10 +289,13 @@
                         </uta:VerifyControlAttribute.ActivityToTest>
                         <uta:VerifyControlAttribute.ArgumentsBridgeActivity>
                           <ActivityFunc x:TypeArguments="x:Object">
-                            <uta:ArgumentsBridge sap2010:WorkflowViewState.IdRef="ArgumentsBridge_2">
+                            <uta:ArgumentsBridge sap2010:WorkflowViewState.IdRef="ArgumentsBridge_2" Result="{x:Null}">
                               <uta:ArgumentsBridge.Input>
                                 <InArgument x:TypeArguments="x:Object">
                                   <VariableValue x:TypeArguments="x:Object">
+                                    <VariableValue.Result>
+                                      <OutArgument x:TypeArguments="x:Object" />
+                                    </VariableValue.Result>
                                     <VariableValue.Variable>
                                       <Variable x:TypeArguments="x:Object" Name="Text" />
                                     </VariableValue.Variable>
@@ -285,7 +307,10 @@
                         </uta:VerifyControlAttribute.ArgumentsBridgeActivity>
                         <uta:VerifyControlAttribute.Expression>
                           <InArgument x:TypeArguments="x:String">
-                            <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">"Login"</mca:CSharpValue>
+                            <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">
+                              <mca:CSharpValue.Result>
+                                <OutArgument x:TypeArguments="x:String" />
+                              </mca:CSharpValue.Result>"Login"</mca:CSharpValue>
                           </InArgument>
                         </uta:VerifyControlAttribute.Expression>
                       </uta:VerifyControlAttribute>
